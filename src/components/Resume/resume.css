@@ -1,0 +1,13 @@
+#resume ul {
+    list-style: disc;
+    /* border-right: 1px solid #fff; */
+    /* border-right: #ffffff; */
+    padding-left: 24px;
+    border-left: 1px solid #686868;
+    padding-bottom: 16px;
+}
+
+#resume ul li::marker {
+    font-size: 30px !important;
+    color: #d97706; 
+  }

@@ -1,0 +1,175 @@
+ [
+  {
+    "id": 1,
+    "title": "Todo App",
+    "image": "../../../src/assets/todo.avif",
+    "website":"https://tmdbmovieappreact.netlify.app/",
+    "github":"https://github.com/Gohardjencyi/Movie-app---React.git",
+    "Languages": "HTML5, CSS3, JavaScript, React,TMDB API, Local Storage",
+    "content": [
+      {
+        "page": {
+          "title": "Todo App - Functional Overview",
+          "sections": [
+            {
+              "heading": "1. Introduction",
+              "content": "The Todo App is a simple React application that allows users to manage tasks with the ability to add, edit, delete, and prioritize them. The tasks are stored in localStorage, ensuring data persists between sessions. The app also includes a dashboard to display task analytics, such as task distribution by priority."
+            },
+            {
+              "heading": "2. Key Features",
+              "content": [
+                "Add Tasks: Users can add new tasks with a description and priority (Low, Medium, High).",
+                "Edit Tasks: Users can edit the description or priority of any existing task.",
+                "Delete Tasks: Users can delete tasks from the list.",
+                "Prioritize Tasks: Each task is assigned a priority level (Low, Medium, High) upon creation or editing.",
+                "Dashboard with Analytics: The dashboard displays total number of tasks and a breakdown of tasks by priority (Low, Medium, High).",
+                "Data Persistence with localStorage: Tasks are saved in localStorage, ensuring they persist even after the page is refreshed."
+              ]
+            },
+            {
+              "heading": "3. How the App Works",
+              "content": [
+                "Task Creation: Tasks are created by adding a description and priority. They are stored in the state and localStorage.",
+                "Task Editing: Tasks can be edited to change the description or priority, and changes are reflected in both the state and localStorage.",
+                "Task Deletion: Tasks can be deleted from the list, and changes are reflected in both the state and localStorage.",
+                "Task Prioritization: Users can prioritize tasks, helping them visually differentiate between high, medium, and low-priority tasks.",
+                "Analytics: The dashboard calculates the total tasks and a priority breakdown, showing the distribution of tasks across the priority levels.",
+                "localStorage: The app ensures data persistence by storing tasks in localStorage, so tasks remain even after a page refresh."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "page": {
+          "title": "Technical Structure and Design",
+          "sections": [
+            {
+              "heading": "1. Project Structure",
+              "content": "The app is divided into the following components: App Component: The main component that manages the state and renders the Todo List, AddTodo form, and Dashboard. TodoList Component: Displays all tasks. TodoItem Component: Represents a single task, with options to edit or delete. AddTodo Component: A form to add a new task, including description and priority. Dashboard Component: Displays task analytics."
+            },
+            {
+              "heading": "2. Data Management",
+              "content": [
+                "State Management: useState is used to manage the list of tasks, stored as an array of task objects (each containing description, priority, and unique ID).",
+                "localStorage: Every task is saved to localStorage as a JSON object whenever a task is added, edited, or deleted. This ensures tasks persist across sessions."
+              ]
+            },
+            {
+              "heading": "3. Task Analytics",
+              "content": [
+                "Total Tasks: Displays the number of tasks in the app.",
+                "Priority Breakdown: Shows the distribution of tasks across Low, Medium, and High priorities."
+              ]
+            },
+            {
+              "heading": "4. User Experience",
+              "content": "The app offers a simple and responsive UI with: Easy task creation and prioritization. Quick editing and deletion of tasks. Real-time analytics on task distribution and priority."
+            }
+          ]
+        }
+      },
+      {
+        "page": {
+          "title": "Conclusion",
+          "sections": [
+            {
+              "heading": "",
+              "content": "This Todo App is a simple yet effective tool for managing tasks with prioritization. With features like task creation, editing, deletion, and a priority dashboard, users can stay organized. The app utilizes localStorage to persist data and provides a seamless user experience across sessions."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "TDMP Movie App",
+    "image": "../../../src/assets/tmdbapp.png",
+    "website":"https://tmdbmovieappreact.netlify.app/",
+    "github":"https://github.com/Gohardjencyi/Movie-app---React.git",
+    "Languages": "HTML5, CSS3, JavaScript, React,TMDB API, Local Storage",
+    "content": [
+      {
+        "page": {
+          "title": "TDMP - Functional Overview",
+          "sections": [
+            {
+              "heading": "1. Introduction",
+              "content": "TDMP (The Digital Movie Platform) is a movie app that allows users to browse movies, view details, and manage their favorite movies. The app fetches movie data from the TMDB API and stores all relevant information in localStorage for persistent access. It includes multiple pages such as the Home Page, About Page, Contact Page, Favorite Page, and Movie Page with filtering options."
+            },
+            {
+              "heading": "2. Key Features",
+              "content": [
+                "Home Page: Displays a list of movies fetched from the TMDB API with pagination.",
+                "About Page: Provides information about the app with Lorem Ipsum content.",
+                "Contact Page: Contains contact details and a contact form for user inquiries.",
+                "Favorite Page: Allows users to add movies to their favorites list and view them here.",
+                "Movie Page: Displays movies with genres and filtering options based on movie name and genre.",
+                "Data Persistence with localStorage: Stores the movie data, favorites, and user preferences in localStorage for persistent use across sessions."
+              ]
+            },
+            {
+              "heading": "3. How the App Works",
+              "content": [
+                "Home Page: The app fetches movie data from the TMDB API, displaying a paginated list of movies for the user to browse.",
+                "About Page: This page contains static Lorem Ipsum text providing information about the app.",
+                "Contact Page: The page includes contact details and a form to allow users to submit inquiries. The form can be processed but its data is not submitted anywhere in this version.",
+                "Favorite Page: Users can add movies to their favorites. These favorite movies are saved in localStorage and displayed on this page.",
+                "Movie Page: Displays movie details and provides filtering options for sorting movies by name or genre. Users can interact with the filters to refine their movie search.",
+                "localStorage: All movie data, user favorites, and filter preferences are stored in localStorage, ensuring the app remains functional across page reloads."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "page": {
+          "title": "Technical Structure and Design",
+          "sections": [
+            {
+              "heading": "1. Project Structure",
+              "content": "The app is divided into the following components: Home Page Component: Fetches and displays the movie list with pagination. About Page Component: Displays static information about the app. Contact Page Component: Contains contact information and a contact form. Favorite Page Component: Displays a list of favorited movies. Movie Page Component: Shows movie details with genres and filtering options."
+            },
+            {
+              "heading": "2. Data Management",
+              "content": [
+                "State Management: useState and useEffect hooks are used to manage the state of movies, favorites, and filters.",
+                "API Fetching: The app fetches movie data from the TMDB API using the API key.",
+                "localStorage: Movies and favorite data are stored in localStorage to maintain data persistence across sessions. The data is saved each time a movie is added to the favorites or when filters are applied."
+              ]
+            },
+            {
+              "heading": "3. User Experience",
+              "content": [
+                "The Home Page offers an easy-to-navigate movie list with pagination, making it simple for users to browse through available films.",
+                "The About Page provides basic information about the app, giving users insight into its purpose.",
+                "The Contact Page offers an intuitive form for users to submit inquiries, enhancing user engagement.",
+                "The Favorite Page gives users the ability to save and view their favorite movies in a centralized location.",
+                "The Movie Page provides filtering options by movie name and genre, allowing users to quickly find movies based on their preferences."
+              ]
+            },
+            {
+              "heading": "4. LocalStorage Persistence",
+              "content": [
+                "localStorage is used to store the movie list, user preferences, and favorite movies. This ensures that the app remembers the user's favorite movies and settings even after the page reloads."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "page": {
+          "title": "Conclusion",
+          "sections": [
+            {
+              "heading": "",
+              "content": "TDMP (The Digital Movie Platform) is a feature-rich movie app that allows users to discover movies, manage their favorites, and filter content based on their preferences. With data persistence through localStorage and integration with the TMDB API, users can enjoy a seamless experience. The app's clean, user-friendly interface ensures easy navigation and engagement across all page"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
+]

@@ -1,0 +1,26 @@
+.intro-block h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+}
+.intro-block p {
+    font-size:24px;
+    text-align: center;
+    width: 70%;
+    /* font-weight: 600; */
+    color: #ffffff81;
+}
+@media screen and (max-width: 1023px) {
+    .intro-block h1 {
+        font-size: 50px;
+        font-weight: 900;
+        color: #fff;
+    }
+    .intro-block p {
+        font-size:20px;
+        text-align: center;
+        width: 100%;
+        /* font-weight: 600; */
+        color: #ffffff81;
+    }
+}
