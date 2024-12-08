@@ -16,7 +16,7 @@ function About() {
     ]
     const personal =[
         {name:"Name", value:"Gohard Jency"},
-        {name:"Email", value:"gohardjency.com"},
+        {name:"Email", value:"gohardjency@gmail.com"},
         {name:"Phone", value:"+91 638 033 8098"},
         {name:"Address", value:"Tamil Nadu, India"},
         {name:"Languages", value:"English, Tamil"},
