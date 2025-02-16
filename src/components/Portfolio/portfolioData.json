@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Todo App",
-    "image": "../../assets/todo.avif",
+    "image": "../src/assets/todo.avif",
     "website":"https://jency-todo.netlify.app",
     "github":"https://github.com/Gohardjencyi/Movie-app---React.git",
     "Languages": "HTML5, CSS3, JavaScript, React,TMDB API, Local Storage",
@@ -85,7 +85,7 @@
   {
     "id": 2,
     "title": "TDMP Movie App",
-    "image": "../../assets/tmdbapp.png",
+    "image": "../src/assets/tmdbapp.png",
     "website":"https://tmdbmovieappreact.netlify.app/",
     "github":"https://github.com/Gohardjencyi/Movie-app---React.git",
     "Languages": "HTML5, CSS3, JavaScript, React,TMDB API, Local Storage",
