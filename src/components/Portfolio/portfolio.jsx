@@ -20,7 +20,7 @@ function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="flex flex-col h-screen portfolio-block w-full items-center justify-center"
+      className="flex flex-col h-lg-screen portfolio-block w-full items-center justify-center"
     >
       {/* Section Header */}
       <div className="text-center mb-10">
