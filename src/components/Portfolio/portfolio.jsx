@@ -35,7 +35,7 @@ function Portfolio() {
           <div
             key={index}
             className="relative lg:col-span-1 col-span-3 bg-cover bg-left bg-no-repeat rounded-lg shadow-lg h-80 w-80 group"
-            style={{ backgroundImage: `url(${import.meta.env.VITE_BASE_URL + todo.image})` }}
+            style={{ backgroundImage: `url(${todo.image})` }}
           >
             {/* Overlay */}
             <div className="absolute lg:inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>

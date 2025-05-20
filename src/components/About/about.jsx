@@ -1,4 +1,4 @@
-import jency from "../../assets/jency-removebg-preview.png";
+// import jency from "../../assets/jency-profile.jpg";
 
 function About() {
     const skills =[
@@ -31,7 +31,7 @@ function About() {
                 </div>
                 <div className="grid grid-cols-12">
                     <div className="col-span-12 text-center mb-5 lg:col-start-2 lg:col-span-4">
-                        <img src={jency} width="400" height="400" alt="jency-photo" />
+                        <img src='../../assets/jency-profile.jpg' width="400" height="400" alt="jency-photo" />
                     </div>
                     <div className="col-span-12 lg:col-end-13 text-white lg:col-span-7">
                         <h3 className="lg:text-5xl text-4xl font-medium mb-5">Hi There! I&apos;m <span className="text-amber-600">Gohard Jency</span></h3>

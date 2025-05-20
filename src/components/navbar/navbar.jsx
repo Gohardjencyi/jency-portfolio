@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./navbar.css";
-import photo from "../../assets/jency-profile.jpg";
+// import photo from "../../assets/jency-profile.jpg";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -19,7 +19,7 @@ function Navbar() {
       {/* Profile Section */}
       <div className="md:p-10 p-2 md:border-b-2 border-white">
         <img
-          src={photo}
+          src='../../assets/jency-profile.jpg'
           alt="jency-photo"
           className="w-full max-w-[60px] aspect-square rounded-full object-cover md:max-w-[200px]"
         />
